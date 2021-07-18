@@ -69,8 +69,10 @@ const Scene = ()=>{
 }
 
 function App() {
-  return (
+  return (<>
+      <h1 className="maintext">Float card</h1>
       <Scene/>
+      </>
   );
 }
 

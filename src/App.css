@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Founders Grotesk";
+  src: url("./test-founders-grotesk-semibold.woff") format(".woff");
+  font-weight: 700;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,5 +15,22 @@ body,
 #root {
   width: 100%;
   height: 100%;
+}
+
+
+body {
   background-color: black;
+}
+
+.maintext {
+  position: absolute;
+  color: white;
+  font-size: 48px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-transform: uppercase;
+  font-family: "Founders Grotesk";
+  font-weight: bolder;
 }
