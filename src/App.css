@@ -19,7 +19,7 @@ body {
 .maintext {
   position: absolute;
   color: white;
-  font-size: 48px;
+  font-size: 6vh;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
